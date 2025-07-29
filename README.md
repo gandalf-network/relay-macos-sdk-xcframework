@@ -13,39 +13,6 @@ A Swift SDK for macOS that provides seamless integration with LLMs.
 
 ### Installation
 
-### Method 1: Swift Package Manager (Recommended)
-
-The easiest way to integrate Relay SDK is through Swift Package Manager.
-
-#### For Xcode Projects:
-
-1. **Open your Xcode project**
-2. **Add the package dependency:**
-   - Go to `File` → `Add Package Dependencies...`
-   - Enter the repository URL: `https://github.com/gandalf-network/relay-macos-sdk-xcframework`
-   - Click `Add Package`
-   - Select your target and click `Add Package`
-
-#### For Swift Package Manager Projects:
-
-Add the dependency to your `Package.swift`:
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/your-org/relay-macos-sdk", from: "1.0.0")
-],
-targets: [
-    .executableTarget(
-        name: "YourApp",
-        dependencies: ["Relay"]
-    )
-]
-```
-
-### Method 2: Direct Framework Integration
-
-If you prefer to integrate the framework directly or need offline access:
-
 #### Step 1: Download the Framework
 
 1. **Download the latest release:**
@@ -118,3 +85,5 @@ openAIClient.sendConversation(
     handler: handler
 )
 ```
+
+- **[Usage Guide](usage.md)**: Complete API documentation developers
