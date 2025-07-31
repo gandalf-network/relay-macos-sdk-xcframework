@@ -530,10 +530,10 @@ func manageConversations() {
 
 ### Common Issues
 
-**Authentication loops**: If authentication keeps failing, clear ChatGPT cookies or log out manually
-**WebView not showing**: Authentication WebView will show automatically when needed
-**Messages not sending**: Check internet connection and authentication status
-**Memory leaks**: Ensure ConversationStreamHandler instances are properly managed
+- **Authentication loops**: If authentication keeps failing, clear ChatGPT cookies or log out manually
+- **WebView not showing**: Authentication WebView will show automatically when needed
+- **Messages not sending**: Check internet connection and authentication status
+- **Memory leaks**: Ensure ConversationStreamHandler instances are properly managed
 
 ### Debug Mode
 
