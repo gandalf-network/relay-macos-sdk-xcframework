@@ -93,4 +93,5 @@ openAIClient.sendConversation(
 )
 ```
 
-- **[Usage Guide](usage.md)**: Complete API documentation developers
+- **[Usage Guide](usage.md)**: Complete API documentation for developers
+- **[Demo App](https://github.com/sa-ma/relay-chat-app)**: Example implementation showing how to use the SDK
